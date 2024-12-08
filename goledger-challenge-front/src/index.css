@@ -22,4 +22,6 @@ body {
 
 p {
   color: #f0f1f0;
+  font-height: 1em;
+  margin: 0;
 }
