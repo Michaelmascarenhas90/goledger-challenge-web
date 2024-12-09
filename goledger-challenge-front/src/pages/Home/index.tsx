@@ -7,7 +7,7 @@ import * as S from './styles'
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Header />
       <S.Wrapper>
         <Aside />
@@ -15,7 +15,7 @@ const Home = () => {
           <Outlet />
         </div>
       </S.Wrapper>
-    </div>
+    </>
   );
 };
 
